@@ -1,7 +1,7 @@
 TAR ?= tar
 AR ?= ar
 
-all: deb-e50 deb-e100 deb-e200 deb-e300 deb-e1000
+all: deb-e50 deb-e100 deb-e200 deb-e300 deb-e1000 usg
 
 clean:
 	rm -rf package
@@ -31,3 +31,6 @@ deb-e300: clean
 
 deb-e1000: clean
 	$(call gen_deb,e1000,mips)
+
+deb-usg: clean
+	$(call gen_deb,usg,mips)
