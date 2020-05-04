@@ -1,6 +1,6 @@
-#Please see the new "official" home for vyatta-ubnt modules at https://github.com/WireGuard/wireguard-vyatta-ubnt
+# Please see the new "official" home for vyatta-ubnt modules at https://github.com/WireGuard/wireguard-vyatta-ubnt
 
-# vyatta-wireguard
+#vyatta-wireguard
 
 This is a Vyatta module and pre-built binaries for the Ubiquiti EdgeRouter
 to support [WireGuard](https://www.wireguard.io/).
